@@ -1,4 +1,6 @@
-//swal no lugar de alert
+// Utilizando o sweet Alert 
+// Swal no lugar de alert
+
 function Random() {
   var play1 = document.getElementById("play1").value;
   var play2 = document.getElementById("play2").value;
