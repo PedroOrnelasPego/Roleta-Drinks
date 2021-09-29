@@ -1,106 +1,155 @@
 @font-face {
-    font-family: Drink;
-    src: url(fonts/Mango\ Drink.ttf)
+  font-family: Drink;
+  src: url(fonts/Mango\ Drink.ttf);
 }
 
-body{
-    background: rgb(45,1,64);
-    background: linear-gradient(0deg, rgba(45,1,64,0.927608543417367) 47%, rgba(27,1,38,1) 80%);
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    flex-direction: column;
-    
+body {
+  background: rgb(45, 1, 64);
+  background: linear-gradient(
+    0deg,
+    rgba(45, 1, 64, 0.927608543417367) 47%,
+    rgba(27, 1, 38, 1) 80%
+  );
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 
-
-.title{
-    color: #fff;
-    text-shadow: 0 0 50px #ff005b;
-    margin-top: 25px;
-    font-family: Drink;
-    font-size: 70px
+.title {
+  color: #fff;
+  text-shadow: 0 0 50px #ff005b;
+  margin-top: 25px;
+  font-family: Drink;
+  font-size: 70px;
 }
 
-.players{
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    text-align: center;
-    
-    
+.players {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  text-align: center;
 }
 
-.player{
-    padding: 25px;
-    color: #FFFFFF;
-    margin: 10px;
-    border-radius: 10px;
-    font-family: Drink;
-    font-size: 50px;
+.player {
+  padding: 25px;
+  color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: Drink;
+  font-size: 50px;
 }
 
-
-
-.customInput 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
-    -webkit-appearance: none;
+.customInput input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .customInput input {
-    border: 0;
-    text-align: center;
-    border-bottom: 1px solid white;
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    font-size: 50px;
-    width: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-
+  border: 0;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 50px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
-#tb{
-    width: 140px;
-    height: 30px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
-    
+#tb {
+  width: 140px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #a67999;
-	background:linear-gradient(to bottom, #c24e8c 5%, #70073f 100%);
-	background-color:#c24e8c;
-	border-radius:6px;
-	border:1px solid #5e274f;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #c70067;
+  background: rgba(255, 255, 255, 0);
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  background-image: -webkit-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 20px #ff005b;
+  border: solid rgba(51, 127, 237, 0.22) 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #70073f 5%, #c24e8c 100%);
-	background-color:#70073f;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+  border: solid #ff0050 1px;
+  background: rgba(255, 0, 91, 0.56);
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 0, 91, 0.56),
+    rgba(237, 139, 174, 0.75)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(255, 0, 91, 0.56),
+    rgba(237, 139, 174, 0.75)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(255, 0, 91, 0.56),
+    rgba(237, 139, 174, 0.75)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(255, 0, 91, 0.56),
+    rgba(237, 139, 174, 0.75)
+  );
+  background-image: -webkit-gradient(
+    to bottom,
+    rgba(255, 0, 91, 0.56),
+    rgba(237, 139, 174, 0.75)
+  );
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
