@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Drink;
+    src: url(fonts/Mango\ Drink.ttf)
+}
+
+body{
+    background: rgb(45,1,64);
+    background: linear-gradient(0deg, rgba(45,1,64,0.927608543417367) 47%, rgba(27,1,38,1) 80%);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+header{
+    
+}
+
+.title{
+    color: #fff;
+    text-shadow: 0 0 50px #ff005b;
+    margin-top: 25px;
+    font-family: Drink;
+    font-size: 70px
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    text-align: center;
+    
+    
+}
+
+.player{
+    padding: 25px;
+    color: #FFFFFF;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Drink;
+    font-size: 50px;
+}
+
+
+
+.customInput 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.customInput input {
+    border: 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 50px;
+    width: 80px
+}
