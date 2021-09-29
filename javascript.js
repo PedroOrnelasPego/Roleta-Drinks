@@ -9,7 +9,7 @@ function Random() {
   if (play1 > 20 || play1 == "" || play2 == "") {
     swal(
       "Favor usar um número valido!",
-      "Maior que 0 e menor que 20.",
+      "Use um número maior que 0 e menor que 10.",
       "error"
     );
     document.getElementById("play1").value = "";
