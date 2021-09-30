@@ -30,7 +30,7 @@ function Random() {
     document.getElementById("play1").value = "";
     document.getElementById("play2").value = "";
   } else if (rnd != play2 && play2 != "") {
-    swal("Ninguem acertou", "Jogue novamente!", "error");
+    swal("Ninguem bebe!", "Jogue novamente!", "error");
     document.getElementById("play1").value = "";
     document.getElementById("play2").value = "";
   }
