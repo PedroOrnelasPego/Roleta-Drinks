@@ -5,13 +5,13 @@ function Random() {
   var play1 = document.getElementById("play1").value;
   var play2 = document.getElementById("play2").value;
 
-  var rnd = Math.floor(Math.random() * 10);
+  var rnd = Math.floor(Math.random() * 5);
   document.getElementById("tb").value = rnd;
 
-  if (play1 > 10 || play1 == "" || play2 == "") {
+  if (play1 > 5 || play1 == "" || play2 == "") {
     swal(
       "Favor usar um número valido!",
-      "Use um número maior que 0 e menor que 10.",
+      "Use um número maior que 0 e menor ou igual a 5.",
       "error"
     );
     document.getElementById("play1").value = "";
